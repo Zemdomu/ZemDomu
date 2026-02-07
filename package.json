@@ -1,0 +1,6 @@
+{
+  "name": "zemdomu-meta",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Semantic HTML linter for HTML, JSX, TSX, and Vue templates. Detects accessibility, SEO, and structure issues before deployment."
+}
