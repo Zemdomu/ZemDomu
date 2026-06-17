@@ -17,7 +17,6 @@ service.
 - VS Code extension (Marketplace): https://marketplace.visualstudio.com/items?itemName=ZachariasErydBerlin.zemdomu
 - VS Code extension (repo): https://github.com/Zemdomu/ZemDomu-extension
 - GitHub Action: https://github.com/Zemdomu/ZemDomu-action
-- ZemDomu Hub: https://github.com/Zemdomu/ZemDomu-Hub
 
 ## Community
 
