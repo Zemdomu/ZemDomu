@@ -1,4 +1,4 @@
-# ZemDomu Meta
+# ZemDomu
 
 Semantic HTML linter for HTML, JSX, TSX, and Vue templates. Detects accessibility,
 SEO, and structure issues before deployment.
