@@ -14,8 +14,48 @@ yarn-debug.log*
 yarn-error.log*
 
 # Environment variables
-.env
-.env.*
+.env*
+!.env.example
+.npmrc
+*.key
+*.pem
+*.p8
+*.p12
+*.pfx
+*.jks
+*.keystore
+credentials.json
+service-account*.json
+*.db
+*.sqlite
+*.sqlite3
+*.sarif
+
+# Internal agent/development material
+.internal/
+.agent/
+.ai/
+.local-docs/
+AGENTS*.md
+agents*.md
+INSTRUCTIONS*.md
+instructions*.md
+TODO*.md
+todo*.md
+STATUS*.md
+status*.md
+PROMPT*.md
+prompt*.md
+CONTEXT*.md
+context*.md
+HANDOFF*.md
+handoff*.md
+PLAN*.md
+plan*.md
+*.internal.md
+*.private.md
+*.local.md
+*.scratch.md
 
 # OS files
 .DS_Store
