@@ -1,0 +1,35 @@
+name: Community documentation bug
+description: Report a broken link or incorrect guidance in the Meta repository.
+title: "[Docs bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: Product bugs belong in the Extension, Core, or Action repository linked in CONTRIBUTING.md. Remove private code, credentials, personal data, and identifying paths from your report.
+  - type: input
+    id: page
+    attributes:
+      label: Affected page or link
+      description: Link to the public Meta page and identify the incorrect section.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or revision
+      description: Include the product version or Action ref when relevant, or the Meta revision you read. Use unknown if you cannot determine it.
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Workflow and minimal reproduction
+      description: Describe the steps you followed and include only sanitized examples or public URLs.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result
+      description: Explain what you expected and what the page or link did instead.
+    validations:
+      required: true

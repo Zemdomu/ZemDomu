@@ -3,8 +3,13 @@
 This community repository is public. Assume every tracked file, commit, release
 asset, issue, and discussion can be read by anyone.
 
-Public Markdown is limited to `README.md`, `CHANGELOG.md`, and this policy. Put
-local plans, agent context, investigation notes, security work, and release
+Public Markdown is limited to `README.md`, `CHANGELOG.md`, `CONTRIBUTING.md`,
+`CODE_OF_CONDUCT.md`, `SECURITY.md`, this policy, and
+`.github/PULL_REQUEST_TEMPLATE.md`. Contributor issue forms and routing
+configuration belong in `.github/ISSUE_TEMPLATE/`. `LICENSE` contains the
+published MIT license.
+
+Put local plans, agent context, investigation notes, security work, and release
 coordination in `.internal/`; that directory is ignored and must never be
 force-added.
 

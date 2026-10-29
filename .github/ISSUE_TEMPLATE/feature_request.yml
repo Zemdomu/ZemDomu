@@ -1,0 +1,35 @@
+name: Community improvement
+description: Suggest an improvement to the Meta documentation or community entry point.
+title: "[Community]: "
+body:
+  - type: markdown
+    attributes:
+      value: For product features, use the owning product repository linked in CONTRIBUTING.md. For questions and cross-product ideas, use https://github.com/Zemdomu/ZemDomu/discussions. Remove private code, credentials, and personal data before sharing.
+  - type: input
+    id: version
+    attributes:
+      label: Product version or Meta revision
+      description: Include the version or Action ref relevant to your idea. Use not applicable for a general community improvement.
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Workflow and problem
+      description: Describe what you were trying to find or understand and where the current guidance falls short.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Minimal sanitized example
+      description: Include a small example or steps that demonstrate the need, using public links and removing private details.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: Explain the change and who it would help.
+    validations:
+      required: true
